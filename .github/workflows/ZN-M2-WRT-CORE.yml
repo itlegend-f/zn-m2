@@ -2,7 +2,7 @@
 # Copyright (C) 2026 VIKINGYFY
 
 #云编译公用核心
-name: WRT-CORE
+name: ZN-M2-WRT-CORE
 
 on:
   workflow_call:
@@ -169,7 +169,7 @@ jobs:
           if [[ "${WRT_CONFIG,,}" == *"test"* ]]; then
             cat $GITHUB_WORKSPACE/Config/$WRT_CONFIG.txt >> .config
           else
-            cat $GITHUB_WORKSPACE/Config/$WRT_CONFIG.txt $GITHUB_WORKSPACE/Config/GENERAL.txt >> .config
+            cat $GITHUB_WORKSPACE/Config/$WRT_CONFIG.txt $GITHUB_WORKSPACE/Config/ZN-M2-GENERAL.txt >> .config
           fi
 
           $GITHUB_WORKSPACE/Scripts/Settings.sh
