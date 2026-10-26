@@ -2,7 +2,7 @@
 # Copyright (C) 2026 VIKINGYFY
 
 #CI项目
-name: ZN-M2-LiBwrt-v25.12.1
+name: ZN-M2-LiBwrt-v25.12.2
 
 #CI计划
 on:
